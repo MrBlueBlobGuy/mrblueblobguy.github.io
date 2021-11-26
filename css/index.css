@@ -23,6 +23,7 @@ a{
 }
 .Copyright{
     margin-top: 19%;
+    margin-left: 90%;
 }
 .fade-in-1{
     animation: fadeIn 5s;
@@ -31,4 +32,11 @@ a{
 .fade-in-2{
     animation: fadeIn 7s;
     opacity: 1;
+}
+.Timer{
+    font-size: 50px;
+    animation: fadeIn 15s;
+    opacity: 1;
+    text-align: center;
+    margin-top: 20%;
 }
