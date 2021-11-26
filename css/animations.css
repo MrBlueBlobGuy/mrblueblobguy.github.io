@@ -6,3 +6,11 @@
         opacity: 1;
     }
 }
+@keyframes MoveInfoLeft{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 20%;
+    }
+}

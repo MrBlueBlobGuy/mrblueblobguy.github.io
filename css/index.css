@@ -17,18 +17,18 @@ a{
     text-decoration: none;
 }
 .Info{
-    margin-top: 20%;
     text-align: center;
+    margin-top: 20%;
     font-size: 25px;
 }
 .Copyright{
-    margin-top: 20%;
+    margin-top: 19%;
 }
 .fade-in-1{
     animation: fadeIn 5s;
     opacity: 1;
 }
 .fade-in-2{
-    animation: fadeIn 10s;
+    animation: fadeIn 7s;
     opacity: 1;
 }
