@@ -1,6 +1,6 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 26, 2022 00:00:00").getTime();
-var ExpiredText = "This page is not yet ready \n Please Don't Do This again cause a surprise is best when it is hidden";
+var countDownDate = new Date("Jan 31, 2022 00:00:00").getTime();
+var ExpiredText = "This page is not yet ready but here is a sneak peek Link Expired";
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -18,8 +18,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("Timer").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s " + " ...";
+  document.getElementById("Timer").innerHTML = days + " Days " + hours + " hours "
+  + minutes + " minutes " + seconds + " seconds " + " ...";
 
   // If the count down is finished, write some text
   if (distance < 0) {
