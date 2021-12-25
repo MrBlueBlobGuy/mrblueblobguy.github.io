@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 31, 2022 00:00:00").getTime();
+var countDownDate = new Date("Dec 31, 2021 00:00:00").getTime();
 var ExpiredText = "This page is not yet ready but here is a <a href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'>sneak peek</a>";
 
 // Update the count down every 1 second

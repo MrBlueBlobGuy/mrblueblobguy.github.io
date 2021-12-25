@@ -45,3 +45,12 @@ a{
     padding-bottom: 56.25%;
     position: relative;
 }
+.MainEmblem{
+    top: 50%;
+    transform: translate(0, 50%);
+    margin: 0;
+    position: absolute;
+    padding-left: 37%;
+    text-align: justify;
+    font-size: 40px;
+}
