@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@400;900&display=swap');
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #2c2c2c;
+    color: wheat;
+    font-family: 'Roboto Mono';
+}
+
+.headbanner{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin: 0.010% 0.010%;
+    padding: 1%;
+}
+.reverse_headbanner{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.webname{
+    padding-right: 77%;
+}
+
+.head_item{
+    padding: 3%
+}
