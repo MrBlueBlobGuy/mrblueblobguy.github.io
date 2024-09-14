@@ -224,3 +224,54 @@ footer {
 .social-media ul li a:hover {
     color: var(--secondary-color);
 }
+
+/* Rate Limit Warning */
+.rate-limit-warning {
+    color: #f00; /* Red color for visibility */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Navbar Toggle Button */
+.navbar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.navbar-toggle-icon::before {
+    content: '☰'; /* Hamburger icon */
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 50px;
+        left: 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+}
